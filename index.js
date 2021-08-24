@@ -2,6 +2,7 @@ function getInputValue(){
     var inputVal = document.getElementById("myInput").value;
     var number = inputVal;
     var audio = new Audio('audio.m4a');
+    document.body.style.backgroundColor = "#696969";
     audio.play();
     var fiveMinutes = 60 * number,
         display = document.querySelector('#time');
