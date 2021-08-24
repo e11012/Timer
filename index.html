@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Picture 1.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <title>TIMER</title>
+</head>
+
+<body>
+        <div><span id="time">05:00</span>
+            <p>The timer is of <input type="number" name="workTime" min="1" value="1" id="myInput"> minutes of work.</p>
+            <button onclick="getInputValue(); this.disabled = true;" >Start</button>
+
+            <button id="reset-timer" class="btn btn-colored btn-shadow" onclick="resetTimer()">
+                <i class="material-icons">replay</i>
+            </button>
+
+        </div>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</body>
+</html>
